@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="VolTankTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-03-26T06:00:08" hostname="DESKTOP-POLPA1P" time="0.018">
+<testsuite name="VolTankTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-03-27T14:28:18" hostname="DESKTOP-POLPA1P" time="0.058">
   <properties/>
-  <testcase name="zeroHeight()" classname="VolTankTests" time="0.013"/>
-  <testcase name="allZero()" classname="VolTankTests" time="0.0"/>
-  <testcase name="maxVolume()" classname="VolTankTests" time="0.0"/>
-  <testcase name="halfVolume()" classname="VolTankTests" time="0.0"/>
-  <testcase name="volumeIsMoreThanHalf()" classname="VolTankTests" time="0.0"/>
+  <testcase name="negativeVolume()" classname="VolTankTests" time="0.049"/>
+  <testcase name="zeroHeight()" classname="VolTankTests" time="0.001"/>
+  <testcase name="allZero()" classname="VolTankTests" time="0.001"/>
+  <testcase name="maxVolume()" classname="VolTankTests" time="0.001"/>
+  <testcase name="halfVolume()" classname="VolTankTests" time="0.001"/>
+  <testcase name="volumeIsMoreThanHalf()" classname="VolTankTests" time="0.001"/>
+  <testcase name="negativeDiameter()" classname="VolTankTests" time="0.001"/>
   <testcase name="volumeIsLessThanHalf()" classname="VolTankTests" time="0.001"/>
+  <testcase name="negativeHeight()" classname="VolTankTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
