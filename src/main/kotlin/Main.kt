@@ -3,7 +3,7 @@ import kotlin.math.pow
 import kotlin.math.sqrt
 
 fun main(args: Array<String>) {
-    println(tankVol(1,100,3000))
+    println(tankVol(1,123456789,3000))
 
     // Try adding program arguments via Run/Debug configuration.
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.

@@ -1,10 +1,7 @@
+import org.junit.jupiter.api.*
 import org.junit.jupiter.api.Assertions.assertAll
 import org.junit.jupiter.api.Assertions.assertEquals
-import org.junit.jupiter.api.BeforeEach
-import org.junit.jupiter.api.DynamicTest
 import org.junit.jupiter.api.DynamicTest.dynamicTest
-import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.TestFactory
 import kotlin.test.assertFailsWith
 
 class VolTankTests {
@@ -74,5 +71,24 @@ class VolTankTests {
             { assertFailsWith<Exception> { tankVol(60,100,-290) } }
         )
     }
+
+    @Test
+    fun bigNumbers() {
+        assertAll(
+            { assertDoesNotThrow { tankVol(2147483647,2147483647,2147483647) } }
+        )
+        // IDE уже не даёт собрать проект с такой строчкой (выход из Int)
+        // assertDoesNotThrow { tankVol(2147483648,2147483648,2147483648) }
+    }
+
+    @Test
+    fun heightIsMoreThanDiameter() {
+        assertAll("H > D",
+            { assertFailsWith<Exception> { tankVol(101,100,3000) } },
+            { assertFailsWith<Exception> { tankVol(300,100,290) } }
+        )
+    }
+
+
 
 }
