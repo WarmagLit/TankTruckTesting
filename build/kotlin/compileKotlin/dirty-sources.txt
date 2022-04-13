@@ -1,0 +1,6 @@
+D:\TSU\Testing\TestTest\src\main\kotlin\com\example\Styles.kt
+D:\TSU\Testing\TestTest\src\main\kotlin\com\example\view\MainView.kt
+D:\TSU\Testing\TestTest\src\main\kotlin\com\example\main.kt
+D:\TSU\Testing\TestTest\src\main\kotlin\com\example\InputData.kt
+D:\TSU\Testing\TestTest\src\main\kotlin\com\example\MyApp.kt
+D:\TSU\Testing\TestTest\src\main\kotlin\com\example\Inputs.kt

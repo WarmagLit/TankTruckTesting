@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="false" />
+    <value-preview-text-wrapping value="true" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -27,18 +27,15 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="e31bac1b-767b-46a7-98c4-d3057745ff48">
-      <console name="testingdb" type="STANDARD" schema="" session="Main" />
+    <connection id="4dd2cde7-a8a2-4147-b948-6212f11efc5c">
+      <console name="Connection" type="STANDARD" schema="information_schema" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="e31bac1b-767b-46a7-98c4-d3057745ff48" />
-  </component>
-  <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="e31bac1b-767b-46a7-98c4-d3057745ff48" dataset="public.inputs" active-filter-id="EMPTY_FILTER" />
+    <connection id="4dd2cde7-a8a2-4147-b948-6212f11efc5c" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -69,9 +66,9 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="e31bac1b-767b-46a7-98c4-d3057745ff48" active="true" signed="false">
+      <connection id="4dd2cde7-a8a2-4147-b948-6212f11efc5c" active="true" signed="false">
         <database>
-          <name value="testingdb" />
+          <name value="Connection" />
           <description value="" />
           <database-type value="POSTGRES" />
           <config-type value="BASIC" />
